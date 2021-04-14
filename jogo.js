@@ -414,6 +414,18 @@ function loop()
     
 }
 
+window.addEventListener('keydown', function(event)
+{
+    var key = event.which || event.keyCode;
+    if(key === 32){
+        if(screenON.click )
+        {
+            screenON.click();
+        }
+    }
+   
+})
+
 window.addEventListener('click', function()
 {
     if(screenON.click)
@@ -421,6 +433,7 @@ window.addEventListener('click', function()
         screenON.click();
     }
 })
+
 
 switchScreen(screen.START);
 loop();
