@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/bozo.ico" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Flappy Naro</title>
+</head>
+<body onselectstart="return false">
+    <h1>Flappy Naro</h1>
+    <canvas id="game-canvas" width="320" height="480"></canvas>
+    <style>
+        h1{
+          font-family: 'VT323';
+          font-size: 40px;
+          color: white;
+          text-align: center;
+          text-transform: uppercase;
+        }
+        p{
+          font-family: 'VT323';
+          color: white;
+          text-align: center;
+          text-transform: uppercase;
+          font-size: 20px;
+        }
+        a{
+          color: red;
+          text-decoration: underline;
+        }
+        body {
+          box-sizing: border-box;
+          min-height: 100vh;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          background-color:#49bfe5;
+        }
+        canvas {
+          border: 2px solid #000;
+          border-radius: 10px 10px;
+          display: block;
+          margin: 0 auto;
+          cursor: pointer;
+        }
+    </style>
+    <p>O game tem como propósito praticar meu JS!<br>As informações presentes são <a>fictícias</a></p>
+    <script src="./jogo.js"></script>
+</body>
+<footer>
+</footer>
+</html>
